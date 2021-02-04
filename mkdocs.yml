@@ -1,0 +1,21 @@
+site_name: Interview Q & A
+nav:
+    - Home : README.md
+    - Categories :
+        - Django : django.md
+        - Algorithms : algorithm.md
+        - Python (syntax) : python.md
+        - Common Issues : common.md
+        - Database : database.md
+        - Services :
+            - General : services/services.md
+            - RabbitMQ : services/rabbitmq.md
+            - Celery : services/celery.md
+    - MD Cheat Sheet: cheat-sheet.md
+    # - Categories : categories.md
+theme:
+  name: material
+  # custom_dir: theme_tweaks
+  
+extra_css: 
+  - theme/style.css
