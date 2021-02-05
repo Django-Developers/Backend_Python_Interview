@@ -1,0 +1,22 @@
+html body {color: black;
+    }
+ 
+
+.md-tabs__link{
+    font-size: 1.6em;
+}
+.md-tabs__item > .md-tabs__link--active{
+    transition: 300ms;
+    border-bottom: 1.5px solid darkgreen;
+}
+.md-nav__item .md-nav__link--active{
+    color: darkgreen;
+    font-weight: 600;
+}
+.md-tabs__link:hover{
+    color: rgb(84, 129, 84);
+}
+.md-footer-nav__direction:hover{
+
+    color: rgb(64, 98, 64);
+}
